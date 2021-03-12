@@ -5,6 +5,7 @@
 Mugure Inez,
 Sheila Sharon,
 Wangechi Kimani,
+Joan Kamere,
 Alex Muhia.
 
 ## Description
