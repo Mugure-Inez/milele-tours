@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  
-    <link rel="stylesheet" href="css/styles.css">
-     <!-- font awesome -->
-   <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
 
-    <title>Milele Tours</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  <title>Milele Tours</title>
 
 </head>
 <!-- navbar -->
 <nav class="navbar">
-    <div class="content">
-        <div class="logo">
-            <a href="#">Milele Tours</a>
-        </div>
-        <ul class="menu-list">
-            <div class="icon cancel-btn">
-                <i class="fas fa-times"></i>
-            </div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#travel">Travelpackages</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="icon menu-btn">
-            <i class="fas fa-bars"></i>
-        </div>
+  <div class="content">
+    <div class="logo">
+      <a href="#">Milele Tours</a>
     </div>
+    <ul class="menu-list">
+      <div class="icon cancel-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#travel">Travelpackages</a></li>
+      <li><a href="#">Booking</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="icon menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
 </nav>
 
 <!--booking form-->
@@ -51,7 +52,7 @@
 
         <option value="Lamu">Lamu</option>
         <option value="Nanyuki">Nanyuki</option>
-        <option value="Chalbi Desert">Chalbi Desert</option>
+        <option value="Chalbi">Chalbi Desert</option>
         <option value="Nairobi National Park">Nairobi</option>
         <option value="Diani">Diani</option>
         <option value="Malindi">Malindi</option>
@@ -145,171 +146,170 @@
     </div>
   </div>
 
-       <!--payment form-->
+  <!--payment form-->
 
-       <div class=payment-form id="payNow">
-        <h2>Payment Form</h2>
-        <div class="row">
-          <div class="col-75">
-            <div class="container payment-form-container">
-              <form action="/action_page.php">
+  <div class=payment-form id="payNow">
+    <h2>Payment Form</h2>
+    <div class="row">
+      <div class="col-75">
+        <div class="containers">
+          <form action="/action_page.php">
+
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="john@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="New York">
 
                 <div class="row">
-                  
                   <div class="col-50">
-                    <h3>Billing Address</h3>
-                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                    <input type="text" id="email" name="email" placeholder="john@example.com">
-                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                    <label for="city"><i class="fa fa-institution"></i> City</label>
-                    <input type="text" id="city" name="city" placeholder="New York">
-
-                    <div class="row">
-                      <div class="col-50">
-                        <label for="state">Country</label>
-                        <input type="text" id="state" name="state" placeholder="NY">
-                      </div>
-                      <div class="col-50">
-                        <label for="zip">Zip code</label>
-                        <input type="text" id="zip" name="zip" placeholder="10001">
-                      </div>
-                    </div>
+                    <label for="state">Country</label>
+                    <input type="text" id="state" name="state" placeholder="NY">
                   </div>
-
                   <div class="col-50">
-                    <h3>Payment</h3>
-                    <label for="fname">M-PESA</label>
-                    <div class="icon-container">
-                     <p> Paybill: 1234567</p>
-                     <p>Account No. 89102</p>
-                    </div>
-                    <p>CARD</p>
-                    <label for="cname">Name on Card</label>
-                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                    <label for="ccnum">Credit card number</label>
-                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                    <label for="expmonth">Exp Month</label>
-                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
-                    <div class="row">
-                      <div class="col-50">
-                        <label for="expyear">Exp Year</label>
-                        <input type="text" id="expyear" name="expyear" placeholder="2018">
-                      </div>
-                      <div class="col-50">
-                        <label for="cvv">CVV</label>
-                        <input type="text" id="cvv" name="cvv" placeholder="352">
-                      </div>
-                    </div>
+                    <label for="zip">Zip code</label>
+                    <input type="text" id="zip" name="zip" placeholder="10001">
                   </div>
-                  
-
                 </div>
-                <label>
-                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
-                </label>
-                <p>By clicking the box below you are accepting all charges and will be returned to the home page after checkout.</p>
-               <a href= "https://mugure-inez.github.io/milele-tours/index.html"> <button type="button" id="btnCheckout" class="btn btn-success col-lg-3 m-5">CHECKOUT</button>
-                <div class="col-lg-2"></div></a>
-              </form>
+              </div>
+
+              <div class="col-50">
+                <h3>Payment</h3>
+
+                <p>CARD</p>
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                  </div>
+                </div>
+              </div>
+
             </div>
-          </div>
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+            <p>By clicking the box below you are accepting all charges and will be returned to the home page after
+              checkout.</p>
+            <a href="https://mugure-inez.github.io/milele-tours/index.html"> <button type="button" id="btnCheckout"
+                class="btn btn-success col-lg-3 m-5">CHECKOUT</button>
+              <div class="col-lg-2"></div>
+            </a>
+          </form>
         </div>
       </div>
+      <div class="icon-containerz">
+        <h3><label for="fname">M-PESA</label>
+          <h3></h3>
+          <h4> Paybill: 1234567</h4>
+          <h4>Account No. 89102</h4>
+          <a href="https://mugure-inez.github.io/milele-tours/index.html">Return to Home.</a>
+      </div>
+    </div>
+  </div>
 
-      <!--end of peayment form-->
+  <!--end of payment form-->
 
 </div>
 <!--end of booking form-->
 
+<!-- footer -->
+<footer>
+  <div class="main-content" id="contact">
+    <div class="left box">
+      <h2>About us</h2>
+      <div class="content">
+        <p>Milele Tours is an agency for young adults to cater for their travel needs at an affordable price.</p>
+        <div class="social">
+          <a href="#"><span class="fab fa-facebook-f"></span></a>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+          <a href="#"><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+    </div>
 
-        <!-- footer -->
-        <footer>
-            <div class="main-content" id="contact">
-              <div class="left box">
-                <h2>About us</h2>
-                <div class="content">
-                  <p>Milele Tours is an agency for young adults to cater for their travel needs at an affordable price.</p>
-                  <div class="social">
-                    <a href="#"><span class="fab fa-facebook-f"></span></a>
-                    <a href="#"><span class="fab fa-twitter"></span></a>
-                    <a href="#"><span class="fab fa-instagram"></span></a>
-                    <a href="#"><span class="fab fa-youtube"></span></a>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="center box">
-                <h2>Address</h2>
-                <div class="content">
-                  <div class="place">
-                    <span class="fas fa-map-marker-alt"></span>
-                    <span class="text">Nairobi ,Kenya</span>
-                  </div>
-                  <div class="phone">
-                    <span class="fas fa-phone-alt"></span>
-                    <span class="text">+254 712345678</span>
-                  </div>
-                  <div class="email">
-                    <span class="fas fa-envelope"></span>
-                    <span class="text">mileletours@gmail.com</span>
-                  </div>
-                </div>
-              </div>
-      
-              <div class="right box">
-                <h2>Contact us</h2>
-                <div class="content">
-                  <form action="#">
-                    <div class="email">
-                      <div class="text">Email *</div>
-                      <input type="email" required>
-                    </div>
-                    <div class="msg">
-                      <div class="text" >Message </div>
-                      <textarea></textarea>
-                      
-                    </div>
-                    <div class="btn">
-                      <button type="submit">Send</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div class="bottom text-center">
-              <centre>
-                <span class="credit">Created By <a href="https://www.milele tours.com">Milele Tours</a> | </span>
-                <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
-              </centre>
-            </div>
-          </footer>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <div class="center box">
+      <h2>Address</h2>
+      <div class="content">
+        <div class="place">
+          <span class="fas fa-map-marker-alt"></span>
+          <span class="text">Nairobi ,Kenya</span>
+        </div>
+        <div class="phone">
+          <span class="fas fa-phone-alt"></span>
+          <span class="text">+254 712345678</span>
+        </div>
+        <div class="email">
+          <span class="fas fa-envelope"></span>
+          <span class="text">mileletours@gmail.com</span>
+        </div>
+      </div>
+    </div>
 
-<!-- fontawesome  -->
+    <div class="right box">
+      <h2>Contact us</h2>
+      <div class="content">
+        <form action="#">
+          <div class="email">
+            <div class="text">Email *</div>
+            <input type="email" required>
+          </div>
+          <div class="msg">
+            <div class="text">Message </div>
+            <textarea></textarea>
+
+          </div>
+          <div class="btn">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="bottom text-center">
+    <centre>
+      <span class="credit">Created By <a href="https://www.milele tours.com">Milele Tours</a> | </span>
+      <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+    </centre>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
 <script src="https://kit.fontawesome.com/d683449ddc.js" crossorigin="anonymous"></script>
-<!-- jQuery file  -->
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<!-- bootstrap  -->
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!-- isotope plugin  -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<!-- script js file  -->
 <script src="js/scripts.js"></script>
-    </body>
-    </html>
-    
+</body>
+
+</html>
