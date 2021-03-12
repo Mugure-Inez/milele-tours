@@ -2,10 +2,10 @@
 
 # MILELE TOURS
 ### Authors
-Mugure Inez
-Sheila Sharon
-Wangechi Kimani
-Alex Muhia
+Mugure Inez,
+Sheila Sharon,
+Wangechi Kimani,
+Alex Muhia.
 
 ## Description
   Milele tours is  a web travel agency application  that offers affordable and enjoyable travel packages. Absolutely everything is planned by Milele tours from accommodation,activities and meals even a travel buddy saving you from the hustle and have no stress but to enjoy.
