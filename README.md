@@ -33,7 +33,7 @@ Here is a working live demo :    https://mugure-inez.github.io/milele-tours/
 
 1. Filter feature on travel cards packages
 
-1. Resposive and interative booking form,booking summary
+1. Resposive and interactive booking form,booking summary
 
 ## Technologies
 
