@@ -374,7 +374,12 @@ label {
 }
 
 
-
+.payment-form-container {
+  background-color: #F2F2F2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
 a {
   color: #2196F3;
 }
