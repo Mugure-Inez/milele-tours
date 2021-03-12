@@ -16,6 +16,25 @@ window.onscroll = ()=>{
   this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
 }
 
+
+ //filter functionality on travel cards
+ let $travelItems = $('.travel-items').isotope({
+  itemSelector:'.travel-item',
+})
+
+$('.filter a').on("click" , function(event){
+  event.preventDefault();
+  var value = $(this).attr('data-name');
+  console.log(value);
+  console.log($travelItems)
+  $travelItems.isotope({
+    filter : value
+    
+  })
+})
+// end of filter functionality on travel cards
+
+
 const display = new Display();
 
 const store = new Store();
